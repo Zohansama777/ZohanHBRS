@@ -11,7 +11,7 @@ public class GermanTranslatorTest {
     public void aTest() {
         GermanTranslator translator = new GermanTranslator();
 
-        assertEquals("null" , translator.translateNumber(0));
+        assertEquals("fünf" , translator.translateNumber(5));
     }
 
 }
